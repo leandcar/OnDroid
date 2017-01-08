@@ -2377,6 +2377,9 @@ namespace StartApp
 			// aapt resource value: 0x7f07004b
 			public const int title_template = 2131165259;
 			
+			// aapt resource value: 0x7f070084
+			public const int toolbar = 2131165316;
+			
 			// aapt resource value: 0x7f070025
 			public const int top = 2131165221;
 			
@@ -2604,6 +2607,12 @@ namespace StartApp
 			// aapt resource value: 0x7f040033
 			public const int support_simple_spinner_dropdown_item = 2130968627;
 			
+			// aapt resource value: 0x7f040034
+			public const int tool_bar_activity = 2130968628;
+			
+			// aapt resource value: 0x7f040035
+			public const int toolbar = 2130968629;
+			
 			static Layout()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -2782,7 +2791,7 @@ namespace StartApp
 			public const int AppTheme_AppBarOverlay = 2131296615;
 			
 			// aapt resource value: 0x7f090166
-			public const int AppTheme_NoActionBar = 2131296614;
+			public const int AppTheme_Base = 2131296614;
 			
 			// aapt resource value: 0x7f090168
 			public const int AppTheme_PopupOverlay = 2131296616;
