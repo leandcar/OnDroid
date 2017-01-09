@@ -19,6 +19,11 @@
       android:icon="@drawable/ic_language_white_24dp"
       android:title="Go to Homepage"
       app:showAsAction="always" />
+
+  <item
+      android:id="@+id/toast_menu"
+      android:title="Toast"
+      app:showAsAction="never" />
   
   <item
       android:id="@+id/snackbar_menu"
