@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+  <item
+      android:id="@+id/navigation_menu"
+      android:icon="@drawable/ic_exit_to_app_white_24dp"
+      android:title="Navigation"
+      app:showAsAction="always" />
+
+  <item
+      android:id="@+id/add_menu"
+      android:icon="@drawable/ic_add_white_24dp"
+      android:title="Add"
+      app:showAsAction="always" />
+
+  <item
+      android:id="@+id/browser_menu"
+      android:icon="@drawable/ic_language_white_24dp"
+      android:title="Go to Homepage"
+      app:showAsAction="always" />
+  
+  <item
+      android:id="@+id/snackbar_menu"
+      android:title="Snackbar"
+      app:showAsAction="never" />
+
+  <item
+      android:id="@+id/alert_dialog_menu"
+      android:title="AlertDialog"
+      app:showAsAction="never" />
+  
+</menu>

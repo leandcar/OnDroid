@@ -1987,10 +1987,22 @@ namespace StartApp
 			public const int design_snackbar_background = 2130837589;
 			
 			// aapt resource value: 0x7f020056
-			public const int navigation_empty_icon = 2130837590;
+			public const int ic_add_white_24dp = 2130837590;
 			
 			// aapt resource value: 0x7f020057
-			public const int notification_template_icon_bg = 2130837591;
+			public const int ic_done_white_24dp = 2130837591;
+			
+			// aapt resource value: 0x7f020058
+			public const int ic_exit_to_app_white_24dp = 2130837592;
+			
+			// aapt resource value: 0x7f020059
+			public const int ic_language_white_24dp = 2130837593;
+			
+			// aapt resource value: 0x7f02005a
+			public const int navigation_empty_icon = 2130837594;
+			
+			// aapt resource value: 0x7f02005b
+			public const int notification_template_icon_bg = 2130837595;
 			
 			static Drawable()
 			{
@@ -2056,8 +2068,14 @@ namespace StartApp
 			// aapt resource value: 0x7f070015
 			public const int add = 2131165205;
 			
+			// aapt resource value: 0x7f070086
+			public const int add_menu = 2131165318;
+			
 			// aapt resource value: 0x7f07004c
 			public const int alertTitle = 2131165260;
+			
+			// aapt resource value: 0x7f070089
+			public const int alert_dialog_menu = 2131165321;
 			
 			// aapt resource value: 0x7f070039
 			public const int all = 2131165241;
@@ -2073,6 +2091,9 @@ namespace StartApp
 			
 			// aapt resource value: 0x7f070024
 			public const int bottom = 2131165220;
+			
+			// aapt resource value: 0x7f070087
+			public const int browser_menu = 2131165319;
 			
 			// aapt resource value: 0x7f070047
 			public const int buttonPanel = 2131165255;
@@ -2224,6 +2245,9 @@ namespace StartApp
 			// aapt resource value: 0x7f070071
 			public const int navigation_header_container = 2131165297;
 			
+			// aapt resource value: 0x7f070085
+			public const int navigation_menu = 2131165317;
+			
 			// aapt resource value: 0x7f070022
 			public const int never = 2131165218;
 			
@@ -2319,6 +2343,9 @@ namespace StartApp
 			
 			// aapt resource value: 0x7f070070
 			public const int snackbar_action = 2131165296;
+			
+			// aapt resource value: 0x7f070088
+			public const int snackbar_menu = 2131165320;
 			
 			// aapt resource value: 0x7f07006f
 			public const int snackbar_text = 2131165295;
@@ -2623,6 +2650,22 @@ namespace StartApp
 			}
 		}
 		
+		public partial class Menu
+		{
+			
+			// aapt resource value: 0x7f0d0000
+			public const int toolbar_menu = 2131558400;
+			
+			static Menu()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Menu()
+			{
+			}
+		}
+		
 		public partial class Mipmap
 		{
 			
@@ -2787,14 +2830,8 @@ namespace StartApp
 			// aapt resource value: 0x7f090165
 			public const int AppTheme = 2131296613;
 			
-			// aapt resource value: 0x7f090167
-			public const int AppTheme_AppBarOverlay = 2131296615;
-			
 			// aapt resource value: 0x7f090166
 			public const int AppTheme_Base = 2131296614;
-			
-			// aapt resource value: 0x7f090168
-			public const int AppTheme_PopupOverlay = 2131296616;
 			
 			// aapt resource value: 0x7f09008e
 			public const int Base_AlertDialog_AppCompat = 2131296398;
