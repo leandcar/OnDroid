@@ -1,3 +1,4 @@
+using System;
 using Android.App;
 using Android.Content;
 using Android.OS;
@@ -13,6 +14,7 @@ namespace StartApp.Activities
     public class ToolbarActivity : AppCompatActivity
     {
         private RelativeLayout rootLayout;
+        private Button nextButton;
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -21,6 +23,9 @@ namespace StartApp.Activities
             SetContentView(Resource.Layout.tool_bar_activity);
 
             rootLayout = FindViewById<RelativeLayout>(Resource.Id.RootLayout);
+
+            nextButton = FindViewById<Button>(Resource.Id.nextButton);
+            nextButton.Click += NextButtonOnClick;
 
             var toolBar = FindViewById<Android.Support.V7.Widget.Toolbar>(Resource.Id.toolbar);
             SetSupportActionBar(toolBar);
@@ -95,6 +100,11 @@ namespace StartApp.Activities
         private void NeutralSnackBar(object sender, DialogClickEventArgs e)
         {
             Snackbar.Make(rootLayout, "Neutral: Selected.", Snackbar.LengthShort).Show();
+        }
+
+        private void NextButtonOnClick(object sender, EventArgs e)
+        {
+
         }
     }
 }
