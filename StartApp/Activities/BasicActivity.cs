@@ -4,7 +4,7 @@ using Android.Support.V7.App;
 
 namespace StartApp.Activities
 {
-    [Activity(Label = "Basic Activity", Theme = "@style/Theme.AppCompat.Light.NoActionBar")]
+    [Activity(Label = "Basic Activity")]
     public class BasicActivity : AppCompatActivity
     {
         protected override void OnCreate(Bundle savedInstanceState)

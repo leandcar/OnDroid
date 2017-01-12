@@ -104,7 +104,8 @@ namespace StartApp.Activities
 
         private void NextButtonOnClick(object sender, EventArgs e)
         {
-
+            var intent = new Intent(this, typeof(BasicActivity));
+            StartActivity(intent);
         }
     }
 }
