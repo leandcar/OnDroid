@@ -73,6 +73,8 @@ namespace StartApp.Activities
         {
             var intent = new Intent(this, typeof(NavigationActivity));
             StartActivity(intent);
+
+            OverridePendingTransition(Android.Resource.Animation.SlideInLeft, Android.Resource.Animation.SlideOutRight);
         }
 
         private void ShowToast()

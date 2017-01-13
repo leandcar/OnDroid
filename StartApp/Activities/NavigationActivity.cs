@@ -27,10 +27,18 @@ namespace StartApp.Activities
             {
                 case Android.Resource.Id.Home:
                     Finish();
+                    //OverridePendingTransition(Resource.Animation.slide_in_right, Resource.Animation.slide_out_left);
                     return true;
                 default:
                     return base.OnOptionsItemSelected(item);
             }
+        }
+
+        public override void Finish()
+        {
+            base.Finish();
+
+            OverridePendingTransition(Resource.Animation.slide_in_right, Resource.Animation.slide_out_left);
         }
     }
 }
