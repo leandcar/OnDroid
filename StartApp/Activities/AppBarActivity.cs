@@ -61,6 +61,7 @@ namespace StartApp.Activities
                     return true;
 
                 case Resource.Id.browser_menu:
+                    OpenImplicit();
                     return true;
 
                 default:
@@ -124,6 +125,30 @@ namespace StartApp.Activities
             StartActivity(intent);
 
             OverridePendingTransition(Android.Resource.Animation.SlideInLeft, Android.Resource.Animation.SlideOutRight);
+        }
+
+        // Implicit Intents
+        // https://developer.android.com/guide/components/intents-common.html
+        private void OpenImplicit()
+        {
+            var intent = new Intent(Intent.ActionView, Android.Net.Uri.Parse("http://www.xamarin.com/"));
+
+            //var intent = new Intent();
+
+            // Opening a Web Page
+            //intent.SetAction(Intent.ActionView);
+            //intent.SetData(Android.Net.Uri.Parse("https://www.meetup.com/pt-BR/Developers-SP/"));
+
+            //// Launching Phone Dialer
+            //var uri = Android.Net.Uri.Parse("tel:1122334455");
+            //intent = new Intent(Intent.ActionDial, uri);
+
+            //// Launching Maps
+            //var uri = Android.Net.Uri.Parse("geo:-23.610472,-46.696798?z=16");
+            //intent = new Intent(Intent.ActionView, uri);
+
+            if (intent.ResolveActivity(PackageManager) != null)
+                StartActivity(intent);
         }
     }
 }
