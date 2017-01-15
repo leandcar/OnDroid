@@ -10,8 +10,10 @@ using AlertDialog = Android.Support.V7.App.AlertDialog;
 
 namespace StartApp.Activities
 {
-    [Activity(Label = "Toolbar Activity", MainLauncher = true)]
-    public class ToolbarActivity : AppCompatActivity
+    // https://material.io/guidelines/layout/structure.html#structure-app-bar
+    // https://developer.android.com/training/appbar/index.html
+    [Activity(Label = "StartApp", MainLauncher = true)]
+    public class AppBarActivity : AppCompatActivity
     {
         private RelativeLayout rootLayout;
         private Button nextButton;
@@ -37,9 +39,9 @@ namespace StartApp.Activities
             return true;
         }
 
+        // https://material.io/guidelines/components/snackbars-toasts.html
         public override bool OnOptionsItemSelected(IMenuItem item)
         {
-
             switch (item.ItemId)
             {
                 case Resource.Id.toast_menu:
@@ -58,9 +60,6 @@ namespace StartApp.Activities
                     GoToNavigationActivity();
                     return true;
 
-                case Resource.Id.add_menu:
-                    return true;
-
                 case Resource.Id.browser_menu:
                     return true;
 
@@ -69,19 +68,13 @@ namespace StartApp.Activities
             }
         }
 
-        private void GoToNavigationActivity()
-        {
-            var intent = new Intent(this, typeof(NavigationActivity));
-            StartActivity(intent);
-
-            OverridePendingTransition(Android.Resource.Animation.SlideInLeft, Android.Resource.Animation.SlideOutRight);
-        }
-
+        // https://developer.android.com/guide/topics/ui/notifiers/toasts.html
         private void ShowToast()
         {
             Toast.MakeText(this, "Isto é um Toast.", ToastLength.Long).Show();
         }
 
+        // https://developer.android.com/training/snackbar/index.html
         private void ShowSnackbar()
         {
             Snackbar.Make(rootLayout, "Isto é um Snackbar.", Snackbar.LengthIndefinite)
@@ -93,8 +86,13 @@ namespace StartApp.Activities
         {
             var builder = new AlertDialog.Builder(this);
 
-            builder.SetTitle("Material Design")
-                   .SetMessage("Isto é um AlertDialog")
+            // There are two types of Alert Dialogs
+            // https://material.io/guidelines/components/dialogs.html#dialogs-behavior
+            // 1 - Alerts without title bars
+            // 2 - Alerts with title bars
+            // To remove the the Title Bar -> Remove the line: .SetTitle()
+            builder.SetMessage("Isto é um AlertDialog")
+                   .SetTitle("Material Design")
                    .SetPositiveButton("Positive", (o, args) => {
                        Snackbar.Make(rootLayout, "Positive: Selected.", Snackbar.LengthShort).Show();
                    })
@@ -111,10 +109,21 @@ namespace StartApp.Activities
             Snackbar.Make(rootLayout, "Neutral: Selected.", Snackbar.LengthShort).Show();
         }
 
+        // https://developer.android.com/guide/components/intents-filters.html
+        // Explicity Intent
         private void NextButtonOnClick(object sender, EventArgs e)
         {
             var intent = new Intent(this, typeof(BasicActivity));
             StartActivity(intent);
+        }
+
+        private void GoToNavigationActivity()
+        {
+            
+            var intent = new Intent(this, typeof(NavigationActivity));
+            StartActivity(intent);
+
+            OverridePendingTransition(Android.Resource.Animation.SlideInLeft, Android.Resource.Animation.SlideOutRight);
         }
     }
 }
