@@ -2080,14 +2080,11 @@ namespace StartApp
 			// aapt resource value: 0x7f070015
 			public const int add = 2131165205;
 			
-			// aapt resource value: 0x7f070089
-			public const int add_menu = 2131165321;
-			
 			// aapt resource value: 0x7f07004c
 			public const int alertTitle = 2131165260;
 			
-			// aapt resource value: 0x7f07008d
-			public const int alert_dialog_menu = 2131165325;
+			// aapt resource value: 0x7f07008c
+			public const int alert_dialog_menu = 2131165324;
 			
 			// aapt resource value: 0x7f070039
 			public const int all = 2131165241;
@@ -2107,8 +2104,8 @@ namespace StartApp
 			// aapt resource value: 0x7f070024
 			public const int bottom = 2131165220;
 			
-			// aapt resource value: 0x7f07008a
-			public const int browser_menu = 2131165322;
+			// aapt resource value: 0x7f070089
+			public const int browser_menu = 2131165321;
 			
 			// aapt resource value: 0x7f070047
 			public const int buttonPanel = 2131165255;
@@ -2362,8 +2359,8 @@ namespace StartApp
 			// aapt resource value: 0x7f070071
 			public const int snackbar_action = 2131165297;
 			
-			// aapt resource value: 0x7f07008c
-			public const int snackbar_menu = 2131165324;
+			// aapt resource value: 0x7f07008b
+			public const int snackbar_menu = 2131165323;
 			
 			// aapt resource value: 0x7f070070
 			public const int snackbar_text = 2131165296;
@@ -2422,8 +2419,8 @@ namespace StartApp
 			// aapt resource value: 0x7f07004b
 			public const int title_template = 2131165259;
 			
-			// aapt resource value: 0x7f07008b
-			public const int toast_menu = 2131165323;
+			// aapt resource value: 0x7f07008a
+			public const int toast_menu = 2131165322;
 			
 			// aapt resource value: 0x7f070087
 			public const int toolbar = 2131165319;

@@ -94,7 +94,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Activities\NavigationActivity.cs" />
-    <Compile Include="Activities\ToolbarActivity.cs" />
+    <Compile Include="Activities\AppBarActivity.cs" />
     <Compile Include="Activities\BasicActivity.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

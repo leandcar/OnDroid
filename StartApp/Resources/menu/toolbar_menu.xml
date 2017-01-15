@@ -9,12 +9,6 @@
       app:showAsAction="always" />
 
   <item
-      android:id="@+id/add_menu"
-      android:icon="@drawable/ic_add_white_24dp"
-      android:title="Add"
-      app:showAsAction="always" />
-
-  <item
       android:id="@+id/browser_menu"
       android:icon="@drawable/ic_language_white_24dp"
       android:title="Go to Homepage"
