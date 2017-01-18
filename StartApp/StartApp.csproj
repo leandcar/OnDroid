@@ -109,7 +109,7 @@
     <AndroidResource Include="Resources\layout\toolbar.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
-    <AndroidResource Include="Resources\layout\tool_bar_activity.axml">
+    <AndroidResource Include="Resources\layout\app_bar_activity.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\navigation_activity.axml">

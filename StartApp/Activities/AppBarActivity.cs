@@ -22,7 +22,7 @@ namespace StartApp.Activities
         {
             base.OnCreate(savedInstanceState);
 
-            SetContentView(Resource.Layout.tool_bar_activity);
+            SetContentView(Resource.Layout.app_bar_activity);
 
             rootLayout = FindViewById<RelativeLayout>(Resource.Id.RootLayout);
 
