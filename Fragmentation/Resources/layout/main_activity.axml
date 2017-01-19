@@ -1,10 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/RootLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-  <include layout="@layout/toolbar" />
+  <include layout="@layout/toolbar"
+           android:id="@+id/toolbar" />
+
+  <LinearLayout
+      android:id="@+id/buttonBar"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignParentBottom="true"
+      android:orientation="horizontal"
+      android:weightSum="3">
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="1" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="2" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="3" />
+  </LinearLayout>
+
+  <FrameLayout
+      android:id="@+id/contentFrame"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_above="@id/buttonBar"
+      android:layout_below="@id/toolbar" />
 
 </RelativeLayout>
