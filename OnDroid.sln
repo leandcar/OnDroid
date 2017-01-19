@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StartApp", "StartApp\StartApp.csproj", "{21F1B2FA-3D76-4503-B4EB-FF05BFF64D3E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fragmentation", "Fragmentation\Fragmentation.csproj", "{D5255F25-EB79-4637-A1C9-13C815D2626A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +19,12 @@ Global
 		{21F1B2FA-3D76-4503-B4EB-FF05BFF64D3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{21F1B2FA-3D76-4503-B4EB-FF05BFF64D3E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{21F1B2FA-3D76-4503-B4EB-FF05BFF64D3E}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{D5255F25-EB79-4637-A1C9-13C815D2626A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5255F25-EB79-4637-A1C9-13C815D2626A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5255F25-EB79-4637-A1C9-13C815D2626A}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{D5255F25-EB79-4637-A1C9-13C815D2626A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5255F25-EB79-4637-A1C9-13C815D2626A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5255F25-EB79-4637-A1C9-13C815D2626A}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
