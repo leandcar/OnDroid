@@ -12,10 +12,10 @@ namespace Fragmentation.Fragments
         {
             // Use this to return your custom view for this Fragment
             var view = inflater.Inflate(Resource.Layout.fragment_layout, container, false);
+            view.SetBackgroundColor(Color.Rgb(240, 250, 240));
 
             var info = view.FindViewById<TextView>(Resource.Id.fragmentName);
             info.Text = "Fragment Two";
-            info.SetBackgroundColor(Color.Rgb(240, 250, 240));
 
             return view;
         }
