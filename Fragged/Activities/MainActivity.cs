@@ -2,20 +2,20 @@
 using Android.OS;
 using Android.Support.V7.App;
 using Android.Widget;
-using Fragmentation.Fragments;
+using Fragged.Fragments;
 using Fragment = Android.Support.V4.App.Fragment;
 
-namespace Fragmentation.Activities
+namespace Fragged.Activities
 {
-    [Activity(Label = "Fragmentation", MainLauncher = true)]
+    [Activity(Label = "Fragged", MainLauncher = true)]
     public class MainActivity : AppCompatActivity
     {
         private Button button1;
         private Button button2;
         private Button button3;
-        FragmentOne fragment1 = new FragmentOne();
-        FragmentTwo fragment2 = new FragmentTwo();
-        FragmentThree fragment3 = new FragmentThree();
+        readonly FragmentOne fragment1 = new FragmentOne();
+        readonly FragmentTwo fragment2 = new FragmentTwo();
+        readonly FragmentThree fragment3 = new FragmentThree();
 
         protected override void OnCreate(Bundle bundle)
         {

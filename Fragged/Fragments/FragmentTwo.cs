@@ -4,7 +4,7 @@ using Android.Views;
 using Android.Widget;
 using Fragment = Android.Support.V4.App.Fragment;
 
-namespace Fragmentation.Fragments
+namespace Fragged.Fragments
 {
     public class FragmentTwo : Fragment
     {
