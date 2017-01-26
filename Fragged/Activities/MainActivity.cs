@@ -27,18 +27,21 @@ namespace Fragged.Activities
             SetSupportActionBar(toolBar);
 
             button1 = FindViewById<Button>(Resource.Id.button1);
-            button1.Click += (sender, args) => {ReplaceFragment(fragment1);  };
+            button1.Click += (sender, args) => {ReplaceFragment(fragment1, Resource.Animation.slide_out_left);  };
 
             button2 = FindViewById<Button>(Resource.Id.button2);
-            button2.Click += (sender, args) => { ReplaceFragment(fragment2); };
+            button2.Click += (sender, args) => { ReplaceFragment(fragment2, Resource.Animation.slide_out_down); };
 
             button3 = FindViewById<Button>(Resource.Id.button3);
-            button3.Click += (sender, args) => { ReplaceFragment(fragment3); };
+            button3.Click += (sender, args) => { ReplaceFragment(fragment3, Resource.Animation.slide_out_right); };
         }
 
-        private void ReplaceFragment(Fragment fragment)
+        private void ReplaceFragment(Fragment fragment, int selectedAnimation)
         {
             var trans = SupportFragmentManager.BeginTransaction();
+
+            trans.SetCustomAnimations(Resource.Animation.slide_in, selectedAnimation, Resource.Animation.slide_in, selectedAnimation);
+
             trans.Replace(Resource.Id.contentFrame, fragment);
             trans.Commit();
         }

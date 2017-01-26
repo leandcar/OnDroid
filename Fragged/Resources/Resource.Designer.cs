@@ -82,6 +82,18 @@ namespace Fragged
 			// aapt resource value: 0x7f050010
 			public const int design_snackbar_out = 2131034128;
 			
+			// aapt resource value: 0x7f050011
+			public const int slide_in = 2131034129;
+			
+			// aapt resource value: 0x7f050012
+			public const int slide_out_down = 2131034130;
+			
+			// aapt resource value: 0x7f050013
+			public const int slide_out_left = 2131034131;
+			
+			// aapt resource value: 0x7f050014
+			public const int slide_out_right = 2131034132;
+			
 			static Animation()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
