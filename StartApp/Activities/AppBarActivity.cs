@@ -72,13 +72,13 @@ namespace StartApp.Activities
         // https://developer.android.com/guide/topics/ui/notifiers/toasts.html
         private void ShowToast()
         {
-            Toast.MakeText(this, "Isto é um Toast.", ToastLength.Long).Show();
+            Toast.MakeText(this, "Isto Ã© um Toast.", ToastLength.Long).Show();
         }
 
         // https://developer.android.com/training/snackbar/index.html
         private void ShowSnackbar()
         {
-            Snackbar.Make(rootLayout, "Isto é um Snackbar.", Snackbar.LengthIndefinite)
+            Snackbar.Make(rootLayout, "Isto Ã© um Snackbar.", Snackbar.LengthIndefinite)
                     .SetAction("OK", (v) => { })
                     .Show();
         }
@@ -92,7 +92,7 @@ namespace StartApp.Activities
             // 1 - Alerts without title bars
             // 2 - Alerts with title bars
             // To remove the the Title Bar -> Remove the line: .SetTitle()
-            builder.SetMessage("Isto é um AlertDialog")
+            builder.SetMessage("Isto Ã© um AlertDialog")
                    .SetTitle("Material Design")
                    .SetPositiveButton("Positive", (o, args) => {
                        Snackbar.Make(rootLayout, "Positive: Selected.", Snackbar.LengthShort).Show();
