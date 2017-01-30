@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/nav_one"
+        android:icon="@drawable/ic_filter_1_black_24dp"
+        android:title="Item 1" />
+    <item
+        android:id="@+id/nav_two"
+        android:icon="@drawable/ic_filter_2_black_24dp"
+        android:title="Item 2" />
+    <item
+        android:id="@+id/nav_three"
+        android:icon="@drawable/ic_filter_3_black_24dp"
+        android:title="Item 3" />
+    <item
+        android:id="@+id/nav_four"
+        android:icon="@drawable/ic_filter_4_black_24dp"
+        android:title="Item 4" />
+  </group>
+
+  <item android:title="Sub items">
+    <menu>
+      <item
+          android:icon="@drawable/ic_view_column_black_24dp"
+          android:title="Sub item 1" />
+      <item
+          android:icon="@drawable/ic_view_stream_black_24dp"
+          android:title="Sub item 2" />
+    </menu>
+  </item>
+
+</menu>
