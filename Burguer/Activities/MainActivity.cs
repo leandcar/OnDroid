@@ -1,6 +1,7 @@
 ﻿using Android.App;
 using Android.OS;
 using Android.Support.Design.Widget;
+using Android.Support.V4.View;
 using Android.Support.V4.Widget;
 using Android.Support.V7.App;
 using Android.Views;
@@ -33,12 +34,25 @@ namespace Burguer.Activities
 
             NavigationView navigationView = FindViewById<NavigationView>(Resource.Id.navigationView);
 
+            // Define HeaderView contents
             View headerView = navigationView.GetHeaderView(0);
 
             nomeTextView = headerView.FindViewById<TextView>(Resource.Id.nomeTextView);
             nomeTextView.Text = "User Name";
             emailTextView = headerView.FindViewById<TextView>(Resource.Id.emailTextView);
             emailTextView.Text = "android@google.com";
+        }
+
+        public override void OnBackPressed()
+        {
+            if (drawerLayout.IsDrawerOpen(GravityCompat.Start))
+            {
+                drawerLayout.CloseDrawer(GravityCompat.Start);
+            }
+            else
+            {
+                base.OnBackPressed();
+            }
         }
     }
 }
