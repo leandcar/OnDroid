@@ -2817,6 +2817,12 @@ namespace Burguer
 			// aapt resource value: 0x7f080023
 			public const int character_counter_pattern = 2131230755;
 			
+			// aapt resource value: 0x7f080026
+			public const int navigation_drawer_close = 2131230758;
+			
+			// aapt resource value: 0x7f080025
+			public const int navigation_drawer_open = 2131230757;
+			
 			// aapt resource value: 0x7f080013
 			public const int search_menu_title = 2131230739;
 			
