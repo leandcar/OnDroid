@@ -6,6 +6,8 @@ using Android.Support.V4.Widget;
 using Android.Support.V7.App;
 using Android.Views;
 using Android.Widget;
+using Burguer.Fragments;
+using Fragment = Android.Support.V4.App.Fragment;
 
 namespace Burguer.Activities
 {
@@ -16,6 +18,11 @@ namespace Burguer.Activities
 
         private TextView nomeTextView;
         private TextView emailTextView;
+
+        private readonly Fragment1 fragment1 = new Fragment1();
+        private readonly Fragment2 fragment2 = new Fragment2();
+        private readonly Fragment3 fragment3 = new Fragment3();
+        private readonly Fragment4 fragment4 = new Fragment4();
 
         protected override void OnCreate(Bundle bundle)
         {
@@ -33,6 +40,7 @@ namespace Burguer.Activities
             toggle.SyncState();
 
             NavigationView navigationView = FindViewById<NavigationView>(Resource.Id.navigationView);
+            navigationView.NavigationItemSelected += NavigationItemSelected;
 
             // Define HeaderView contents
             View headerView = navigationView.GetHeaderView(0);
@@ -53,6 +61,34 @@ namespace Burguer.Activities
             {
                 base.OnBackPressed();
             }
+        }
+
+        private void NavigationItemSelected(object sender, NavigationView.NavigationItemSelectedEventArgs e)
+        {
+            drawerLayout.CloseDrawer(GravityCompat.Start);
+
+            Fragment fragment;
+            switch (e.MenuItem.ItemId)
+            {
+                case Resource.Id.nav_one:
+                    fragment = fragment1;
+                    break;
+                case Resource.Id.nav_two:
+                    fragment = fragment2;
+                    break;
+                case Resource.Id.nav_three:
+                    fragment = fragment3;
+                    break;
+                case Resource.Id.nav_four:
+                    fragment = fragment4;
+                    break;
+                default:
+                    return;
+            }
+
+            var trans = SupportFragmentManager.BeginTransaction();
+            trans.Replace(Resource.Id.contentFrame, fragment);
+            trans.Commit();
         }
     }
 }
