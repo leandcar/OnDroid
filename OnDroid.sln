@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fragged", "Fragged\Fragged.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Burguer", "Burguer\Burguer.csproj", "{25B2EF03-FE53-4619-98B2-9FAE9BDD65C1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SlidingTab", "SlidingTab\SlidingTab.csproj", "{BC33FB6A-9893-48E2-9E70-4FB58B23845D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,12 @@ Global
 		{25B2EF03-FE53-4619-98B2-9FAE9BDD65C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{25B2EF03-FE53-4619-98B2-9FAE9BDD65C1}.Release|Any CPU.Build.0 = Release|Any CPU
 		{25B2EF03-FE53-4619-98B2-9FAE9BDD65C1}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{BC33FB6A-9893-48E2-9E70-4FB58B23845D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC33FB6A-9893-48E2-9E70-4FB58B23845D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC33FB6A-9893-48E2-9E70-4FB58B23845D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{BC33FB6A-9893-48E2-9E70-4FB58B23845D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC33FB6A-9893-48E2-9E70-4FB58B23845D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC33FB6A-9893-48E2-9E70-4FB58B23845D}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
