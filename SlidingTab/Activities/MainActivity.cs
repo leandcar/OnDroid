@@ -11,6 +11,7 @@ namespace SlidingTab.Activities
     public class MainActivity : AppCompatActivity
     {
         private Button textTabsButton;
+        private Button iconTabsButton;
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
@@ -22,11 +23,20 @@ namespace SlidingTab.Activities
 
             textTabsButton = FindViewById<Button>(Resource.Id.buttonTextTab);
             textTabsButton.Click += TextTabsButtonOnClick;
+
+            iconTabsButton = FindViewById<Button>(Resource.Id.buttonIconTab);
+            iconTabsButton.Click += IconTabsButtonOnClick;
         }
 
         private void TextTabsButtonOnClick(object sender, EventArgs e)
         {
             var intent = new Intent(this, typeof(TextTabsActivity));
+            StartActivity(intent);
+        }
+
+        private void IconTabsButtonOnClick(object sender, EventArgs e)
+        {
+            var intent = new Intent(this, typeof(IconTabsActivity));
             StartActivity(intent);
         }
     }

@@ -11,5 +11,11 @@
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       android:text="Go to Text Tabs" />
+  
+  <Button
+      android:id="@+id/buttonIconTab"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Go to Icon Tabs" />
 
 </LinearLayout>
