@@ -2008,11 +2008,8 @@ namespace SlidingTab
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f070077
-			public const int RootLayout = 2131165303;
-			
-			// aapt resource value: 0x7f070078
-			public const int action0 = 2131165304;
+			// aapt resource value: 0x7f070079
+			public const int action0 = 2131165305;
 			
 			// aapt resource value: 0x7f07005e
 			public const int action_bar = 2131165278;
@@ -2038,8 +2035,8 @@ namespace SlidingTab
 			// aapt resource value: 0x7f07005f
 			public const int action_context_bar = 2131165279;
 			
-			// aapt resource value: 0x7f07007c
-			public const int action_divider = 2131165308;
+			// aapt resource value: 0x7f07007d
+			public const int action_divider = 2131165309;
 			
 			// aapt resource value: 0x7f070003
 			public const int action_menu_divider = 2131165187;
@@ -2071,6 +2068,9 @@ namespace SlidingTab
 			// aapt resource value: 0x7f07001f
 			public const int always = 2131165215;
 			
+			// aapt resource value: 0x7f070086
+			public const int appBarLayout = 2131165318;
+			
 			// aapt resource value: 0x7f07002b
 			public const int auto = 2131165227;
 			
@@ -2083,8 +2083,11 @@ namespace SlidingTab
 			// aapt resource value: 0x7f070047
 			public const int buttonPanel = 2131165255;
 			
-			// aapt resource value: 0x7f070079
-			public const int cancel_action = 2131165305;
+			// aapt resource value: 0x7f070078
+			public const int buttonTextTab = 2131165304;
+			
+			// aapt resource value: 0x7f07007a
+			public const int cancel_action = 2131165306;
 			
 			// aapt resource value: 0x7f07002c
 			public const int center = 2131165228;
@@ -2098,8 +2101,8 @@ namespace SlidingTab
 			// aapt resource value: 0x7f070055
 			public const int checkbox = 2131165269;
 			
-			// aapt resource value: 0x7f07007f
-			public const int chronometer = 2131165311;
+			// aapt resource value: 0x7f070080
+			public const int chronometer = 2131165312;
 			
 			// aapt resource value: 0x7f070035
 			public const int clip_horizontal = 2131165237;
@@ -2149,8 +2152,8 @@ namespace SlidingTab
 			// aapt resource value: 0x7f07001d
 			public const int end = 2131165213;
 			
-			// aapt resource value: 0x7f070084
-			public const int end_padder = 2131165316;
+			// aapt resource value: 0x7f070085
+			public const int end_padder = 2131165317;
 			
 			// aapt resource value: 0x7f070026
 			public const int enterAlways = 2131165222;
@@ -2179,6 +2182,9 @@ namespace SlidingTab
 			// aapt resource value: 0x7f07003b
 			public const int @fixed = 2131165243;
 			
+			// aapt resource value: 0x7f070077
+			public const int fragmentName = 2131165303;
+			
 			// aapt resource value: 0x7f070005
 			public const int home = 2131165189;
 			
@@ -2194,8 +2200,8 @@ namespace SlidingTab
 			// aapt resource value: 0x7f070042
 			public const int image = 2131165250;
 			
-			// aapt resource value: 0x7f070083
-			public const int info = 2131165315;
+			// aapt resource value: 0x7f070084
+			public const int info = 2131165316;
 			
 			// aapt resource value: 0x7f070000
 			public const int item_touch_helper_previous_elevation = 2131165184;
@@ -2203,11 +2209,11 @@ namespace SlidingTab
 			// aapt resource value: 0x7f070030
 			public const int left = 2131165232;
 			
-			// aapt resource value: 0x7f07007d
-			public const int line1 = 2131165309;
+			// aapt resource value: 0x7f07007e
+			public const int line1 = 2131165310;
 			
-			// aapt resource value: 0x7f070081
-			public const int line3 = 2131165313;
+			// aapt resource value: 0x7f070082
+			public const int line3 = 2131165314;
 			
 			// aapt resource value: 0x7f07000b
 			public const int listMode = 2131165195;
@@ -2215,8 +2221,8 @@ namespace SlidingTab
 			// aapt resource value: 0x7f070044
 			public const int list_item = 2131165252;
 			
-			// aapt resource value: 0x7f07007b
-			public const int media_actions = 2131165307;
+			// aapt resource value: 0x7f07007c
+			public const int media_actions = 2131165308;
 			
 			// aapt resource value: 0x7f07001e
 			public const int middle = 2131165214;
@@ -2323,6 +2329,9 @@ namespace SlidingTab
 			// aapt resource value: 0x7f070013
 			public const int showTitle = 2131165203;
 			
+			// aapt resource value: 0x7f070087
+			public const int sliding_tabs = 2131165319;
+			
 			// aapt resource value: 0x7f070070
 			public const int snackbar_action = 2131165296;
 			
@@ -2350,8 +2359,8 @@ namespace SlidingTab
 			// aapt resource value: 0x7f070032
 			public const int start = 2131165234;
 			
-			// aapt resource value: 0x7f07007a
-			public const int status_bar_latest_event_content = 2131165306;
+			// aapt resource value: 0x7f07007b
+			public const int status_bar_latest_event_content = 2131165307;
 			
 			// aapt resource value: 0x7f070058
 			public const int submenuarrow = 2131165272;
@@ -2362,11 +2371,11 @@ namespace SlidingTab
 			// aapt resource value: 0x7f07000d
 			public const int tabMode = 2131165197;
 			
-			// aapt resource value: 0x7f070082
-			public const int text = 2131165314;
+			// aapt resource value: 0x7f070083
+			public const int text = 2131165315;
 			
-			// aapt resource value: 0x7f070080
-			public const int text2 = 2131165312;
+			// aapt resource value: 0x7f070081
+			public const int text2 = 2131165313;
 			
 			// aapt resource value: 0x7f070050
 			public const int textSpacerNoButtons = 2131165264;
@@ -2374,8 +2383,8 @@ namespace SlidingTab
 			// aapt resource value: 0x7f070076
 			public const int text_input_password_toggle = 2131165302;
 			
-			// aapt resource value: 0x7f07007e
-			public const int time = 2131165310;
+			// aapt resource value: 0x7f07007f
+			public const int time = 2131165311;
 			
 			// aapt resource value: 0x7f070046
 			public const int title = 2131165254;
@@ -2383,8 +2392,8 @@ namespace SlidingTab
 			// aapt resource value: 0x7f07004b
 			public const int title_template = 2131165259;
 			
-			// aapt resource value: 0x7f070085
-			public const int toolbar = 2131165317;
+			// aapt resource value: 0x7f070089
+			public const int toolbar = 2131165321;
 			
 			// aapt resource value: 0x7f070025
 			public const int top = 2131165221;
@@ -2400,6 +2409,9 @@ namespace SlidingTab
 			
 			// aapt resource value: 0x7f070014
 			public const int useLogo = 2131165204;
+			
+			// aapt resource value: 0x7f070088
+			public const int viewPager = 2131165320;
 			
 			// aapt resource value: 0x7f07000a
 			public const int view_offset_helper = 2131165194;
@@ -2575,46 +2587,52 @@ namespace SlidingTab
 			public const int design_text_input_password_icon = 2130968614;
 			
 			// aapt resource value: 0x7f040027
-			public const int main_activity = 2130968615;
+			public const int fragment_layout = 2130968615;
 			
 			// aapt resource value: 0x7f040028
-			public const int notification_media_action = 2130968616;
+			public const int main_activity = 2130968616;
 			
 			// aapt resource value: 0x7f040029
-			public const int notification_media_cancel_action = 2130968617;
+			public const int notification_media_action = 2130968617;
 			
 			// aapt resource value: 0x7f04002a
-			public const int notification_template_big_media = 2130968618;
+			public const int notification_media_cancel_action = 2130968618;
 			
 			// aapt resource value: 0x7f04002b
-			public const int notification_template_big_media_narrow = 2130968619;
+			public const int notification_template_big_media = 2130968619;
 			
 			// aapt resource value: 0x7f04002c
-			public const int notification_template_lines = 2130968620;
+			public const int notification_template_big_media_narrow = 2130968620;
 			
 			// aapt resource value: 0x7f04002d
-			public const int notification_template_media = 2130968621;
+			public const int notification_template_lines = 2130968621;
 			
 			// aapt resource value: 0x7f04002e
-			public const int notification_template_part_chronometer = 2130968622;
+			public const int notification_template_media = 2130968622;
 			
 			// aapt resource value: 0x7f04002f
-			public const int notification_template_part_time = 2130968623;
+			public const int notification_template_part_chronometer = 2130968623;
 			
 			// aapt resource value: 0x7f040030
-			public const int select_dialog_item_material = 2130968624;
+			public const int notification_template_part_time = 2130968624;
 			
 			// aapt resource value: 0x7f040031
-			public const int select_dialog_multichoice_material = 2130968625;
+			public const int select_dialog_item_material = 2130968625;
 			
 			// aapt resource value: 0x7f040032
-			public const int select_dialog_singlechoice_material = 2130968626;
+			public const int select_dialog_multichoice_material = 2130968626;
 			
 			// aapt resource value: 0x7f040033
-			public const int support_simple_spinner_dropdown_item = 2130968627;
+			public const int select_dialog_singlechoice_material = 2130968627;
 			
 			// aapt resource value: 0x7f040034
-			public const int toolbar = 2130968628;
+			public const int support_simple_spinner_dropdown_item = 2130968628;
+			
+			// aapt resource value: 0x7f040035
+			public const int text_tabs_activity = 2130968629;
+			
+			// aapt resource value: 0x7f040036
+			public const int toolbar = 2130968630;
 			
 			static Layout()
 			{

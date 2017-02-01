@@ -1,12 +1,16 @@
-﻿using Android.App;
+﻿using System;
+using Android.App;
+using Android.Content;
 using Android.OS;
 using Android.Support.V7.App;
+using Android.Widget;
 
 namespace SlidingTab.Activities
 {
     [Activity(Label = "Sliding Tab", MainLauncher = true)]
     public class MainActivity : AppCompatActivity
     {
+        private Button textTabsButton;
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
@@ -15,6 +19,15 @@ namespace SlidingTab.Activities
 
             var toolBar = FindViewById<Android.Support.V7.Widget.Toolbar>(Resource.Id.toolbar);
             SetSupportActionBar(toolBar);
+
+            textTabsButton = FindViewById<Button>(Resource.Id.buttonTextTab);
+            textTabsButton.Click += TextTabsButtonOnClick;
+        }
+
+        private void TextTabsButtonOnClick(object sender, EventArgs e)
+        {
+            var intent = new Intent(this, typeof(TextTabsActivity));
+            StartActivity(intent);
         }
     }
 }

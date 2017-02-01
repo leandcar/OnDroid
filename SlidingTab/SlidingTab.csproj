@@ -94,6 +94,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Activities\MainActivity.cs" />
+    <Compile Include="Activities\TextTabsActivity.cs" />
+    <Compile Include="Adapters\TextTabsFragmentPagerAdapter.cs" />
+    <Compile Include="Fragments\FragmentOne.cs" />
+    <Compile Include="Fragments\FragmentThree.cs" />
+    <Compile Include="Fragments\FragmentTwo.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -105,6 +110,12 @@
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\main_activity.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\text_tabs_activity.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\fragment_layout.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
