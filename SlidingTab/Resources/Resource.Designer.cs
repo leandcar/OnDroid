@@ -1996,13 +1996,13 @@ namespace SlidingTab
 			public const int ic_filter_3_white_24dp = 2130837592;
 			
 			// aapt resource value: 0x7f020059
-			public const int Icon = 2130837593;
-			
-			// aapt resource value: 0x7f02005a
-			public const int navigation_empty_icon = 2130837594;
+			public const int navigation_empty_icon = 2130837593;
 			
 			// aapt resource value: 0x7f02005b
 			public const int notification_template_icon_bg = 2130837595;
+			
+			// aapt resource value: 0x7f02005a
+			public const int tab_icon_color = 2130837594;
 			
 			static Drawable()
 			{
