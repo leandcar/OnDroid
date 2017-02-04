@@ -1,6 +1,9 @@
 ﻿using Android.App;
 using Android.OS;
 using Android.Support.V7.App;
+using Android.Widget;
+using Monkeys.Adapters;
+using Monkeys.Data;
 
 namespace Monkeys.Activities
 {
@@ -15,6 +18,9 @@ namespace Monkeys.Activities
 
             var toolBar = FindViewById<Android.Support.V7.Widget.Toolbar>(Resource.Id.toolbar);
             SetSupportActionBar(toolBar);
+
+            var monkeysList = FindViewById<ListView>(Resource.Id.monkeysListView);
+            monkeysList.Adapter = new MonkeyAdapter(MonkeyData.Monkeys);
         }
     }
 }
