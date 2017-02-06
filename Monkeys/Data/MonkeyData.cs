@@ -4,12 +4,10 @@ namespace Monkeys.Data
 {
     public static class MonkeyData
     {
-        public static List<Monkey> Monkeys { get; private set; }
+        public static List<Monkey> Monkeys { get; } = new List<Monkey>();
 
         static MonkeyData()
         {
-            Monkeys = new List<Monkey>();
-
             Init();
         }
 
