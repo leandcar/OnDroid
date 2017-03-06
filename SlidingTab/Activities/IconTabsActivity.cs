@@ -43,7 +43,7 @@ namespace SlidingTab.Activities
             //tabLayout.GetTabAt(1).SetIcon(Resource.Drawable.ic_filter_2_white_24dp);
             //tabLayout.GetTabAt(2).SetIcon(Resource.Drawable.ic_filter_3_white_24dp);
 
-            var tabIconColors = Build.VERSION.SdkInt >= BuildVersionCodes.Lollipop
+            var tabIconColors = Build.VERSION.SdkInt >= BuildVersionCodes.M
                         ? Resources.GetColorStateList(Resource.Drawable.tab_icon_color, Theme)
                         : Resources.GetColorStateList(Resource.Drawable.tab_icon_color);
 

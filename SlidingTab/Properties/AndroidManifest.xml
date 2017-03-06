@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.sylixmobile.slidingTab" android:versionCode="1" android:versionName="1.0">
-  <uses-sdk android:minSdkVersion="17" android:targetSdkVersion="24" />
-  <application android:label="Sliding Tab" android:icon="@mipmap/icon" android:theme="@style/AppTheme"></application>
+	<uses-sdk android:minSdkVersion="17" android:targetSdkVersion="25" />
+	<application android:label="Sliding Tab" android:icon="@mipmap/icon" android:theme="@style/AppTheme"></application>
 </manifest>
